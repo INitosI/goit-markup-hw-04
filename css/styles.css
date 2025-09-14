@@ -526,8 +526,70 @@ ul {
 
 .footer {
   background: var(--navy-blue);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  color: var(--white);
+  padding: 40px 0;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-left {
+  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.social-link-footer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--iris); /* #4d5ae5 */
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: var(--green); /* #31d0aa */
+}
+
+.social-icon-footer {
+  width: 24px;
+  height: 24px;
+  fill: var(--cloud); /* #f4f4fd — remove fill from sprite to allow this */
+}
+
+.social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .footer-logo {
