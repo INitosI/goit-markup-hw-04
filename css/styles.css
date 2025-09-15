@@ -530,7 +530,7 @@ ul {
   padding: 40px 0;
 }
 
-.footer-inner {
+.footer.container {
   display: flex;
   align-items: baseline;
   gap: 120px;
